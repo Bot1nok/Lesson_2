@@ -2,6 +2,8 @@
 #include"Summ.h"
 #include"Dif.h"
 #include"Mult.h"
+#include"Div.h"
+
 
 using namespace std;
 
@@ -12,6 +14,7 @@ int main(){
 	Summ(a,b);
 	Dif(a,b);
 	Mult(a,b);
+	Div(a,b);
 	system("Pause");
 }
 
